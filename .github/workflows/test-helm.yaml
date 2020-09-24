@@ -22,7 +22,6 @@ jobs:
         if: "! contains(env.commitmsg, '[skip lint]')"
         with:
           command: lint
-          config: ct.yaml
       - name: Create kind cluster
         uses: helm/kind-action@v1.0.0
         if: "steps.lint.outputs.changed == 'true' && ! contains(env.commitmsg, '[skip install]')"
@@ -31,4 +30,3 @@ jobs:
         if: "steps.lint.outputs.changed == 'true' && ! contains(env.commitmsg, '[skip install]')"
         with:
           command: install
-          config: ct.yaml
