@@ -3,9 +3,9 @@ entries:
   bitwardenrs:
   - apiVersion: v2
     appVersion: 1.15.1
-    created: "2020-09-24T19:29:27.912156664Z"
+    created: "2020-09-24T19:30:40.184823572Z"
     description: Unofficial Bitwarden compatible server written in Rust
-    digest: 0e68ab2e447945fb47ac933e89193621050e21c8a046fd4f898218848e32db7c
+    digest: 5ccef797f99a2de02bc34156286880401e54af2511badf23620da0c7dbeb1b2b
     home: https://github.com/dani-garcia/bitwarden_rs
     icon: https://upload.wikimedia.org/wikipedia/commons/0/03/Bitwarden_Logo.png
     keywords:
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://Ornias1993.github.io/bitwarden_rs/bitwardenrs-0.1.3.tgz
     version: 0.1.3
-generated: "2020-09-24T19:29:27.910760133Z"
+generated: "2020-09-24T19:30:40.183345299Z"
