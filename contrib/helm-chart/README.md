@@ -126,3 +126,10 @@ resources | Deployment Resources | Map | Empty
 nodeSelector | Node selector | Map | Empty
 tolerations | Tolerations | Array | Empty
 affinity | Affinity | Map | Empty
+
+
+## Releasing new chart versions:
+
+Chart versions are released seperately from Bitwarden_rs.
+Releases should always contain a new version number and can be triggered by adding `[release chart]` to a commit message pushed to master.
+(release is triggered on push/merge, not PR)
