@@ -3,7 +3,27 @@ entries:
   bitwardenrs:
   - apiVersion: v2
     appVersion: 1.15.1
-    created: "2020-09-24T20:22:42.968987683Z"
+    created: "2020-09-24T20:47:42.322938531Z"
+    description: Unofficial Bitwarden compatible server written in Rust
+    digest: 47e772ae3eff6b442c1a2e841be6fd3479f6086f31c98a4287170bdb33411611
+    home: https://github.com/dani-garcia/bitwarden_rs
+    icon: https://upload.wikimedia.org/wikipedia/commons/0/03/Bitwarden_Logo.png
+    keywords:
+    - bitwarden
+    - bitwarden_rs
+    - password
+    maintainers:
+    - name: dani-garcia
+    name: bitwardenrs
+    sources:
+    - https://github.com/dani-garcia/bitwarden_rs
+    type: application
+    urls:
+    - https://Ornias1993.github.io/bitwarden_rs/bitwardenrs-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.15.1
+    created: "2020-09-24T20:47:42.321136886Z"
     description: Unofficial Bitwarden compatible server written in Rust
     digest: f45ed13c06c305a5f076014ddffa856f9d386d23419faa5d9fc64eb0f4998cb6
     home: https://github.com/dani-garcia/bitwarden_rs
@@ -21,4 +41,4 @@ entries:
     urls:
     - https://Ornias1993.github.io/bitwarden_rs/bitwardenrs-0.1.3.tgz
     version: 0.1.3
-generated: "2020-09-24T20:22:42.967700077Z"
+generated: "2020-09-24T20:47:42.319303341Z"
