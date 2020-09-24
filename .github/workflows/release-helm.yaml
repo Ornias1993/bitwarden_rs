@@ -1,4 +1,4 @@
-name: release
+name: Release HelmChart
 on:
   push:
     tags: '*'
@@ -11,4 +11,5 @@ jobs:
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
+          charts_dir: contrib/helm-chart
           token: ${{ secrets.GITHUB_TOKEN }}
