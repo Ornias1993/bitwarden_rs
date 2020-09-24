@@ -1,3 +1,5 @@
 helm-extra-args: --timeout 600s
 chart-dirs:
   - charts
+chart-repos:
+  - bitwardenrs=https://ornias1993.github.io/bitwarden_rs/
