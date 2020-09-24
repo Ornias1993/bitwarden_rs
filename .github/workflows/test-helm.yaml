@@ -2,10 +2,10 @@ name: Lint and Test HelmCharts
 on:
   push:
     paths:
-      - 'contrib/helm-chart/**'
+      - 'charts/**'
   pull_request:
     paths:
-      - 'contrib/helm-chart/**'
+      - 'charts/**'
 jobs:
   lint-test:
     runs-on: ubuntu-latest
