@@ -13,5 +13,4 @@ keywords:
 sources:
   - https://github.com/dani-garcia/bitwarden_rs
 maintainers:
-  - name: Silvio Gissi
-    email: silvio@gissilabs.com
+  - name: dani-garcia
