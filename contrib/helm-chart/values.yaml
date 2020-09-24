@@ -115,7 +115,7 @@ ingressRoute:
   #  - name: my_middleware
   #    namespace: default
   tls: {}
-    #certResolver: letsencrypt
+    # certResolver: letsencrypt
 
 persistence:
   enabled: false
