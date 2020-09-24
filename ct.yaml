@@ -1,5 +1,0 @@
-helm-extra-args: --timeout 600s
-charts:
-  - charts/bitwardenrs/
-chart-repos:
-  - bitwardenrs=https://ornias1993.github.io/bitwarden_rs/
